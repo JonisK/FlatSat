@@ -6,7 +6,7 @@ The FlatSat is a test environment aimed at developing and verifying interactions
 Files:
 CAD Assembly (Open with Autodesk Inventor): `./CAD model/FlatSatAssembly.iam`
 
-FlatSat PCB complete (Open with Altium): `./FlatSat\FlatSat.PrjPcb`
+FlatSat PCB complete (Open with Altium): `./FlatSat/FlatSat.PrjPcb`
 
 Rear FlatSat PCB (Open with Altium): `./FlatSatRearHalf/FlatSat Half 1.PrjPcb`
 
