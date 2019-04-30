@@ -5,15 +5,10 @@ The FlatSat is a test environment aimed at developing and verifying interactions
 
 Files:
 CAD Assembly (Open with Autodesk Inventor): `./CAD model/FlatSatAssembly.iam`
-
-FlatSat PCB complete (Open with Altium): `./FlatSat/FlatSat.PrjPcb`
-
+FlatSat PCB complete (Open with Altium): `./FlatSat\FlatSat.PrjPcb`
 Rear FlatSat PCB (Open with Altium): `./FlatSatRearHalf/FlatSat Half 1.PrjPcb`
-
 Front FlatSat PCB (Open with Altium): `./FlatSatFrontHalf/FlatSat Half 2.PrjPcb`
-
 PC/104 bridge board (Open with Altium): `./PC104Bridge/BridgeBoard.PrjPcb`
-
 PC/104 breakout board (Open with Altium): `./PC104Breakout/PC104Breakout.PrjPcb`
 
 ![](https://i.imgur.com/MPITqvF.png)
@@ -70,9 +65,16 @@ Hence the grounding of the structure must be done by one of the subsystems, in c
 The FlatSat structure rests on anodized aluminium profiles making it isolated from the desk it is sitting on. In the MOVE-II integration room, the FlatSat rests on a grounded stainless steel desk so the isolation of the aluminium profiles allows us to control the impedance between the FlatSat structure and Earth potential. A separate wire connects the FlatSat structure to the grounding bus in the integration room which connects to Earth over a 100 kOhm resistor.
 
 # PC/104 Bridge
+The PC/104 bridge board connects to adjacent PC/104 sockets. The board is populated with pin headers on the bottom side which are inserted in the PC/104 sockets. The FlatSat PCBs need one bridge board to connect to each other. Also, the bridge board turned out to be a convenient way of attaching the subsystem that is the lowest in the stack (in our case the S-Band transceiver) and therefore only has sockets instead of a stacking header.
 
+![](https://i.imgur.com/U9bsAe3.png)
+*Screenshot of the PC/104 bridge board.*
 
 # PC/104 Breakout Board
+The breakout board connects every pin of the PC/104 bus to a test point where you can clamp an oscilloscope probe to. The board protrudes in the opposite direction from the PC/104 connector compared to a normal subsystem so you can put the breakout board on top of a subsystem without covering the debug connectors of the subsystem itself. On the MOVE-II FlatSat, we usually put one breakout board on the monitor slot to the front of the FlatSat.
+
+![](https://i.imgur.com/eIMsNun.png)
+*Screenshot of the PC/104 breakout board.*
 
 # Use in MOVE-II
 The FlatSat was finished in December 2016. Its utilization within the MOVE project began in January 2017 with the brass prototypes that the team developed until the X-mas milestone. After a few tests in teh student lab shown in figure X, the FlatSat was put in the integration room of LRT next to a PC that connects to the UART console of the CDH on the FlatSat.
