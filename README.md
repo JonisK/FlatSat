@@ -4,11 +4,11 @@ FlatSat
 The FlatSat is a test environment aimed at developing and verifying interactions between all subsystems of a CubeSat based on the PC/104 bus. The FlatSat consists of two large PCBs which have PC/104 sockets for plugging in all subsystems. The flat assembly makes probing the subsystems easier and reduces wear on the PC/104 connectors of the subsystems.
 
 Files:
-CAD Assembly (Open with Autodesk Inventor): `./CAD model/FlatSatAssembly.iam`
-FlatSat PCB complete (Open with Altium): `./FlatSat\FlatSat.PrjPcb`
-Rear FlatSat PCB (Open with Altium): `./FlatSatRearHalf/FlatSat Half 1.PrjPcb`
-Front FlatSat PCB (Open with Altium): `./FlatSatFrontHalf/FlatSat Half 2.PrjPcb`
-PC/104 bridge board (Open with Altium): `./PC104Bridge/BridgeBoard.PrjPcb`
+CAD Assembly (Open with Autodesk Inventor): `./CAD model/FlatSatAssembly.iam`  
+FlatSat PCB complete (Open with Altium): `./FlatSat\FlatSat.PrjPcb`  
+Rear FlatSat PCB (Open with Altium): `./FlatSatRearHalf/FlatSat Half 1.PrjPcb`  
+Front FlatSat PCB (Open with Altium): `./FlatSatFrontHalf/FlatSat Half 2.PrjPcb`  
+PC/104 bridge board (Open with Altium): `./PC104Bridge/BridgeBoard.PrjPcb`  
 PC/104 breakout board (Open with Altium): `./PC104Breakout/PC104Breakout.PrjPcb`
 
 ![](https://i.imgur.com/MPITqvF.png)
